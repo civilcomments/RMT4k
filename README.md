@@ -6,8 +6,6 @@ and RedBearLab Blend Micro board.
 ![rmt4k](https://cloud.githubusercontent.com/assets/6831826/5333726/917b75e4-7e34-11e4-9007-18bf10c01885.gif)
 
 
-## Please note
-
 This project was built for fun, to learn more about the steps involved,
 and *doesn't represent a professional approach to iOS, Node.js, or Arduino development*.
 These files are meant to be used as reference only, and improvements via pull requests are more than
@@ -18,9 +16,9 @@ soldering equipment on the dining table), to the folks at [RedBearLab](http://re
 BLEController example app, to Dave and Andy at [SuperFab](http://www.superfabpdx.com) for the CNC routing, and, of course, to the wonderful people at [TED](http://www.ted.com),
 for encouraging all kinds of making.
 
-## Whoa, this is way too complicated!
+## Whoa, this is complicated!
 
-Yeah, like I said, this was a fun learning project for me.  If you're not fired up to build this from scratch, which is probably a sign of good mental health,
+So yeah, this was a fun learning project for me.  If you're not fired up to build this from scratch, which is probably a sign of good mental health,
 [Revolve Robotics](https://revolverobotics.com) sells a commercial tabletop product that looks pretty great, for $500 plus tablet.
 
 ## Hardware overview
