@@ -6,10 +6,9 @@ and RedBearLab Blend Micro board.
 ![rmt4k](https://cloud.githubusercontent.com/assets/6831826/5333726/917b75e4-7e34-11e4-9007-18bf10c01885.gif)
 
 
-This project was built for fun, to learn more about the steps involved,
-and *doesn't represent a professional approach to iOS, Node.js, or Arduino development*.
-These files are meant to be used as reference only, and improvements via pull requests are more than
-welcome.  Always be safe with power tools and electrical wiring.
+This project was built for fun, to learn more about the different hardware and software tools involved.
+Much of the code is amateur-level, and these files are meant to be used as a starting point only.
+Improvements via pull requests are more than welcome!
 
 Many thanks to [Mark](https://github.com/bog) for help/advice with the websocket and scripting (and for putting up with
 soldering equipment on the dining table), to the folks at [RedBearLab](http://redbearlab.com) for the awesome Blend Micro and
