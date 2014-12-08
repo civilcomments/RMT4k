@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  img(src= 'images/rmt4k.jpg')
+  br
+  br
+  h3 Rotate iPad
+  input(id='rotator', type='range', min=0, max=180, step=1)
+  h3 Log history
+  textarea(id='log')
+  h1 Reconnect Device
+  input(id='restart', type='submit', value='restart')

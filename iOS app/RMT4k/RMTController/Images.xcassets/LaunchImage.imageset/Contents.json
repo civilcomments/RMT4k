@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "00003482164517.jpg"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "00003482164517-1.jpg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

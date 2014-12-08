@@ -1,0 +1,26 @@
+@interface Config : NSObject
+@end
+
+@implementation Config
+
+// These first two settings should match the URL and port number in the Node server's
+// client.js line 9 and the port number in device-server.js line 5.
+// It should use a different port than the one you'll connect to
+// to move the slider (in this example, the open socket uses
+// "ChangeThis.com:4321", but the slider app would be at "ChangeThis.com:4322").
+// Whichever ports you choose, you'll need to be sure you open both of them
+// on your server's firewall.
+
++(NSString*)getSocketHost {
+    return @"http://ChangeThis.com";
+}
+
++(uint16_t)getSocketPort {
+    return 4321;
+}
+
++(NSString*)getStoredName {
+    return @"RMT4k";
+}
+
+@end
