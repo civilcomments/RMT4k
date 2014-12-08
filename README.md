@@ -1,7 +1,7 @@
 # Rotate-Mo-Tron 4000
 
-A DIY tabletop telepresence robot, using an iPad to maintain an open socket between a NodeJS server
-and RedBearLab Blend Micro.
+A DIY tabletop telepresence robot, using an iPad to maintain an open socket between a Node.js server
+and RedBearLab Blend Micro board.
 
 ![rmt4k](https://cloud.githubusercontent.com/assets/6831826/5333726/917b75e4-7e34-11e4-9007-18bf10c01885.gif)
 
@@ -9,7 +9,7 @@ and RedBearLab Blend Micro.
 ## Please note
 
 This project was built for fun, to learn more about the steps involved,
-and *doesn't represent a professional approach to iOS, NodeJS, or Arduino development*.
+and *doesn't represent a professional approach to iOS, Node.js, or Arduino development*.
 These files are meant to be used as reference only, and improvements via pull requests are more than
 welcome.  Always be safe with power tools and electrical wiring.
 
@@ -17,6 +17,11 @@ Many thanks to [Mark](https://github.com/bog) for help/advice with the websocket
 soldering equipment on the dining table), to the folks at [RedBearLab](http://redbearlab.com) for the awesome Blend Micro and
 BLEController example app, to Dave and Andy at [SuperFab](http://www.superfabpdx.com) for the CNC routing, and, of course, to the wonderful people at [TED](http://www.ted.com),
 for encouraging all kinds of making.
+
+## Whoa, this is way too complicated!
+
+Yeah, like I said, this was a fun learning project for me.  If you're not fired up to build this from scratch, which is probably a sign of good mental health,
+[Revolve Robotics](https://revolverobotics.com) sells a commercial tabletop product that looks pretty great, for $500 plus tablet.
 
 ## Hardware overview
 
@@ -35,7 +40,7 @@ for encouraging all kinds of making.
 
 ## Software overview
 
-* Install NodeJS and put the Node_server files on a web server that you have ssh access to (I'm using an EC2 micro instance, free for this level of use).
+* Install Node.js and put the Node_server files on a web server that you have ssh access to (I'm using an EC2 micro instance, free for this level of use).
 * Open two unique ports (in this example, '4321' for the socket, and '1234' for the web app)
 * Change line 9 of client.js and line 5 of device-server.js to use your server URL and socket port number
 * Change line 16 of app.js to use your web app port number
@@ -54,11 +59,6 @@ for encouraging all kinds of making.
 This assumes you're using an iPad with Bluetooth 4, to interface with the Blend Micro's onboard BLE chip.
 If you're using a pre-BLE iPad, you're going to need to use a different Arudino product, and rewrite
 the iOS/Arduino software to match the different hardware.
-
-## Whoa, that's way too complicated!
-
-Yeah, like I said, this was a fun learning project for me.  If you're not fired up to build something,
-[Revolve Robotics](https://revolverobotics.com) sells a commercial tabletop product that looks pretty great, for $500 plus tablet.
 
 
 ## DISCLAIMER
