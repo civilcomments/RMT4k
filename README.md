@@ -1,6 +1,6 @@
 # The Rotate-Mo-Tron 4000
 
-A DIY tabletop telepresence robot, using an iPad to maintain an open socket between a Node.js server
+A DIY tabletop telepresence robot built for the TED office, using an iPad to maintain an open socket between a Node.js server
 and RedBearLab Blend Micro board.
 
 ![rmt4k](https://cloud.githubusercontent.com/assets/6831826/5333726/917b75e4-7e34-11e4-9007-18bf10c01885.gif)
