@@ -1,4 +1,4 @@
-# Rotate-Mo-Tron 4000
+# The Rotate-Mo-Tron 4000
 
 A DIY tabletop telepresence robot, using an iPad to maintain an open socket between a Node.js server
 and RedBearLab Blend Micro board.
